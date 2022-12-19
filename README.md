@@ -6,95 +6,79 @@ Office Hours: TBD
 
 Lecture: 
 Location:
+Schedule and readings: [Google sheets](https://docs.google.com/spreadsheets/d/1mcq7pGzoxPuAUWfR7mXeqgsFgOnNvOXN1OEG-K5l31E/edit?usp=sharing)
 
 TAs/Course Assistants: TBD
 
 ## Official Course Description
 
-This course will cover probabilistic graphical models -- powerful and interpretable models for reasoning under uncertainty. The generic families of models such as directed, undirected, and factor graphs as well as specific representations such as hidden Markov models and conditional random fields will be discussed. The discussions will include both the theoretical aspects of representation, learning, and inference, and their applications in many interesting fields such as computer vision, natural language processing, computational biology, and medical diagnosis.
+This course will cover probabilistic graphical models -- powerful and interpretable models for reasoning under uncertainty, The generic families of models such as directed, undirected, and factor graphs as well as specific representations such as hidden Markov models and conditional random fields will be discussed. The discussions will include both the theoretical aspects of representation, learning, and inference, and their applications in many interesting fields such as computer vision, natural language processing, computational biology, and medical diagnosis. For Spring 2023, this course will have a speical focus on causality and PGM's intersection with modern AI-systems although all basic topics in PGMs
 
-**Important note:** This course will focus primiarly on the foundations of probabilistic graphical models (PGM). Almost all of the lecture time will be used for discussing and using probability theory, statistics, optimization, and calculus for understanding, analysis, and derivation of PGM approaches and algorithms. Programming will be minimal.
+**Important note:** In previous years, this course has focused primiarly on the foundations of probabilistic graphical models (PGM). For Spring 2023, the course's lectures will focus primarily on foundations and concepts; however, the assignments will be half programming assignments in Python. Almost all of the lecture time will be used for discussing and using probability theory, statistics, optimization, and calculus for understanding, analysis, and derivation of PGM approaches and algorithms. 
 
 ## Prerequisites
-
-Strong background in calculus, statistics, and probability.
+Strong background in calculus, statistics, and probability. Expirience with data science projects in Python recomended. 
 
 ## Textbook
+[Probabilistic Graphical Models](https://mitpress.mit.edu/books/probabilistic-graphical-models) By Daphne Koller and Nir Friedman
+We also use [Causality](http://bayes.cs.ucla.edu/BOOK-2K/) by Pearl quite frequently although Koller and Friedman will be the primary text.
 
-Recommended: Probabilistic Graphical Models By Daphne Koller and Nir Friedman
-
-https://mitpress.mit.edu/books/probabilistic-graphical-models
+Other great texts to skin through for particuarly challenging topics: 
+- Modeling and Reasoning with Bayesian networks by Adnan Darwiche.
+- Pattern Recognition and Machine Learning by Chris Bishop.
+- Machine Learning: a Probabilistic Perspective by Kevin P. Murphy.
+- Information Theory, Inference, and Learning Algorithms by David J. C. Mackay. Available online.
+- Bayesian Reasoning and Machine Learning by David Barber. Available online.
+- Graphical models, exponential families, and variational inference by Martin J. Wainwright and Michael I. Jordan. Available online
+- And also never forget YouTube is a great source of free lecture material. 
 
 ## Topics
-
-* Chapter 1 - Introduction
-* Chapter 2 - Foundations
-* Chapter 3 - The Bayesian Network Representation
-* Chapter 4 - Undirected Graphical Models
-* Chapter 5 - Local Probabilistic Models
-* Chapter 6 - Template-Based Representations
-* Chapter 7 - Gaussian Network Models
-* Chapter 8 - The Exponential Family
-* Chapter 9 - Variable Elimination
-* Chapter 10 - Clique Trees
-* Chapter 11 - Inference as Optimization
-* Chapter 12 - Particle-Based Approximate Inference
-* Chapter 13 - MAP Inference
-* Chapter 15 - Inference in Temporal Models
-* Chapter 16 - Learning Graphical Models: Overview
-* Chapter 17 - Parameter Estimation
-* Chapter 18 - Structure Learning in Bayesian Networks
-* Chapter 20 - Learning Undirected Models
-* Chapter 21 - Causality
-* Chapter 22 - Utilities and Decisions
-* Chapter 23 - Structured Decision Problems
+Please find required readings, additional readings, notes, and ohters on the course schedule: 
+sh
 
 ## Instructor
+Austin Clyde
+aclyde@anl.gov
 
-Mustafa Bilgic
+(Previously Mustafa Bilgic, who created most of the course materials)
 
 Office hours: Visit the [Google Sheet](https://docs.google.com/spreadsheets/d/1cFrdlYQW24R0Zi-yPplbNKBYhakspbjHKqUMcRySml4/) that has the office hour info for all CS faculty.
 
 
 ## Teaching Assistants
 
-Ruo Yang
+TBD
 
 Office hours: TBD <br>
-Email: ryang23@hawk.iit.edu
-
-## Notes
-
-OneNote Link: https://1drv.ms/u/s!AjipUklg3ofWkQYm2sHRh9tmf1Wq
+Email: TBD
 
 ## Exams
 
 ### Midterm
-9:40am-10:50am (US Central Time) on Thursday, October 14th, 2021
+10am-10:50am (US Central Time) on Monday, March 1st, 2021
 
 ### Final
-December 6-11 (The exact day and time to be determined by the university)
+May 1-6, 2023 (The exact day and time to be determined by the university)
 
 ## Grading
 
 Item | Points
 --- | ---
-Assignments | 28%
-Midterm | 32%
+Assignments | 30%
+Midterm | 30%
 Final | 40%
 Total | 100
 
 ### Assignments
 
-There will be approximately 7 assignments. Assignments will focus on the theory and foundations of probabilistic graphical models. There might be one programming assignment in Python.
+There will be approximately 7 assignments. Assignments will focus on the theory and foundations of probabilistic graphical models as well as programming. Each assignment will have both a theory and programming question in Python.
 
 #### Late Submission Policy
-
-There is a 5-minute grace period. After the grace period is over, every late minute costs 100/(48x60) = 0.03472 points. The late submission policy is strictly enforced. Please do not submit late; submit early.
+Late work is not accepted. This policy is strictly enforced. 
 
 #### Extensions
 
-I do not extend deadlines.
+I do not extend deadlines, please do not ask.
 
 #### Extra Credit
 
